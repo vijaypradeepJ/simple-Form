@@ -1,0 +1,13 @@
+.taxi{
+    text-align: center;
+    color: black;
+}
+body{
+    background-color: lightblue;
+}
+
+
+.submit{
+    text-align: center;
+    text-decoration: dotted;
+}

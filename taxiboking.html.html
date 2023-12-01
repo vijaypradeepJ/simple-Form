@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>taxi booking</title>
+        <body>
+            <link rel="stylesheet" href="assets/style.css.css">
+            <div class="taxi">
+            <h2>Taxi booking</h2>
+            </div>
+            <div class="details">
+            <p>
+            <label>Name</label>
+            <input type="text" name="customer_name">
+            </p>
+            <p>
+            <label>Phone no</label>
+            <input type="tel" name="customer_number">
+            </p>
+            <p>
+                <label>Email</label>
+                <input type="email" name="email_address">
+            </p>
+            <fieldset>
+                <legend>which taxi do you require?</legend>
+                <p>
+                <input type="radio" name="taxi">
+                <label>car</label>
+                </p>
+                <p>
+                    <input type="radio" name="taxi">
+                    <label>auto</label>
+                </p>
+                <p>
+                    <input type="radio" name="taxi">
+                    <label>van</label>
+                </p>
+
+            </fieldset>
+            <fieldset>
+                <legend>Extras</legend>
+                <p>
+                <input type="checkbox" name="taxi">
+                <label>Baby seat</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="taxi">
+                    <label>Wheel chairs</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="taxi">
+                    <label>stock Tip</label>
+                </p>
+
+            </fieldset>
+            <p>
+                <label>Pickup Date/Time</label>
+                <input type="datetime-local" name="pickup time">
+            </p>
+            <p>
+                <label for="taxi">Pickup Place</label>
+                <select name="Pickup Place" id="Pickup Place">
+                    <option value="select">select</option>
+                    <option value="Townhall">Townhall</option>
+                    <option value="Gandhipuram">Gandhipuram</option>
+                    <option value="Singanallur">Singanallur</option>
+                    <option value="Perur">Perur</option>
+                </select>
+                </p>
+                <p>
+                <label for="taxi">Dropoff Place</label>
+                <select name="Dropoff Place" id="Dropoff Place">
+                    <option value="select">select</option>
+                    <option value="Townhall">Townhall</option>
+                    <option value="Gandhipuram">Gandhipuram</option>
+                    <option value="Singanallur">Singanallur</option>
+                    <option value="
+                    Perur">Perur</option>
+                </select>
+            </p>
+            <div class="submit">
+            <p>
+                <button type="button" name="submit">submit</button>
+            </p>
+            </div>
+            
+        </body>
+    </head>
+</html>
